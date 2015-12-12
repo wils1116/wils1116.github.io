@@ -1,0 +1,568 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background: #660099 url(images/header_transparent.png);
+  height: 360px;
+  box-shadow: 0 -100px 100px 20px white inset;
+  transition: all 8s;
+}
+
+header h1{
+  display: none;
+}
+
+footer{
+  height: 10px;
+  margin-top: 30px;
+  height: 30px;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+footer h1{
+  color: white;
+  background-color: #660099;
+  font-size: 80%;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+footer span{
+  padding-right: 30px;
+}
+
+
+
+.container{
+  display: -webkit-flex;
+  display: flex;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.bodycontent{
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  font-family: 'Playfair Display', serif;
+  color: #660099;
+  text-decoration:none;
+}
+
+a:visited{
+  color: #7b51a0;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+ul {
+  font-family: 'Playfair Display', serif;
+}
+
+.indent {
+  padding-left: 30px;
+}
+
+#grade{
+  color: #660099;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #660099;
+  color: white;
+  padding: 5px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #660099;
+  color: white;
+  padding: 3px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #660099;
+  color: white;
+  padding: 3px;
+}
+
+.header{
+  background-color: #660099;
+  width: 2000px;
+  height: 300px;
+}
+
+.headshot {
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+}
+
+
+.hometext {
+  float: right;
+  width: 600px;
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
+.textbox{
+  margin: 0 30px;
+  width: 930px;
+  padding-left: 120px;
+}
+
+.btn {
+  padding: 10px;
+  font: Helvetica;
+  font-size: 16pt;
+  color: white;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color:transparent;
+}
+
+button:hover {
+  background-color: #7b51a0;
+}
+
+#navbar {
+  text-align: center;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#navbar ul {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 0;
+  padding-right: 85px;
+  padding-left: 85px;
+  background-color: #660099;
+}
+
+#navbar li {
+	display: inline-block;
+  margin: 0 30px;
+}
+
+
+
+#socialmedia{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+#socialmedia ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#socialmedia li{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding-left: 50px;
+}
+
+#logo {
+  padding: 30px;
+  padding-left: 150px;
+}
+
+#socilamedia img{
+  display: inline-block;
+  align-items: center;
+  margin: 0 10px;
+}
+
+
+#youtube{
+  width: 350px;
+}
+
+#music{
+  width: 550px;
+}
+
+.youtube{
+  width:350px;
+  height: 245px;
+  padding-bottom: 10px;
+}
+.p {
+  margin-top: 60px;
+}
+
+#fullbody{
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.resumeheader{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 5px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 200px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 200px;
+  font-family: 'Playfair Display', serif;
+}
+
+.modalDialog p{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.modalDialog h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #660099;
+  color: white;
+  padding: 3px;
+}
+
+
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Playfair Display', serif;
+}
+
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  font-family: 'Playfair Display', serif;
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: 'Playfair Display', serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    text-align: center;
+}
+
+.modalDialog img{
+  max-width: 400px;
+  max-height: 400px;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 600px;
+    position: relative;
+    margin: 3% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #7b51a0;
+    text-decoration: none;
+}
+
+.close:visited {
+  color: white;
+}
+
+.portfolio_img{
+  width: 200px;
+  height: 200px;
+}
+
+.portfolio{
+  width: 910px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/*Blog images size and padding */
+#blog{
+  max-width: 300px;
+  max-height: 300px;
+  padding-right: 5px;
+}
+
+#author{
+  width: 300px;
+}
+
+#entries{
+  width: 600px;
+}
+
+#entries p{
+  text-indent: 30px;
+}
+
+#home{
+  width: 600px;
+}
+
+.education{
+  width: 600px;
+}
+
+.resumepdf{
+  width: 300px;
+}
+
+.aboutme p{
+  text-indent: 30px;
+}
+
+
+@media (max-width: 1000px) {
+  .container{
+    width: 750px;
+  }
+
+  #fullbody{
+    width: 750px;
+  }
+
+  #navbar {
+    text-align: center;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #navbar ul {
+  	display: inline-block;
+  	margin: 10px 0;
+  	padding: 0;
+    padding-right: 85px;
+    padding-left: 85px;
+  }
+
+  #navbar li {
+  	display: inline-block;
+    margin: 0 10px;
+  }
+
+  footer{
+    width: 750px;
+  }
+
+  .bodycontent{
+    margin: auto;
+  }
+
+  .education{
+    width:440px;
+  }
+
+  .resumepdf{
+    width: 290px;
+  }
+  #youtube{
+    width: 320px;
+  }
+
+  #music{
+    width: 390px;
+  }
+
+  .youtube{
+    width:305px;
+    height: 200px;
+    padding-bottom: 10px;
+  }
+
+  #blog{
+    max-width: 230px;
+    max-height: 230px;
+    padding-right: 5px;
+  }
+  #author{
+    width: 250px;
+  }
+  #entries{
+    width: 470px;
+  }
+
+  .portfolio{
+    width:750px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .container{
+    width: 575px;
+  }
+
+  #fullbody{
+    width: 575px;
+  }
+
+  .headshot{
+    width: 200px;
+    height: 200px;
+  }
+
+  #navbar {
+    text-align: center;
+    width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #navbar ul {
+  	display: inline-block;
+  	margin: 10px 0;
+  	padding: 0;
+    padding-right: 85px;
+    padding-left: 85px;
+  }
+
+  #navbar li {
+  	display: inline-block;
+    margin: 0 10px;
+  }
+
+  footer{
+    width: 575px;
+  }
+
+  .education{
+    width:350px;
+  }
+
+  .resumepdf{
+    width: 200px;
+  }
+  .resumepdf h1{
+    font-size: 30;
+  }
+
+  #youtube{
+    width: 230px;
+  }
+
+  #music{
+    width: 340px;
+  }
+
+  .youtube{
+    width:230px;
+    height: 125px;
+    padding-bottom: 10px;
+  }
+
+  #blog{
+    max-width: 180px;
+    max-height: 180px;
+    padding-right: 5px;
+  }
+  #author{
+    width: 145px;
+  }
+  #entries{
+    width: 410px;
+  }
+  .portfolio{
+    width: 575px;
+  }
+
+}
